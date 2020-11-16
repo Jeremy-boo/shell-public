@@ -7,9 +7,10 @@ if [ `command -v zsh` ];then
 else    
     echo "----------------zsh没有安装,开始安装zsh----------------"
     sudo apt-get update \
-         apt-get install zsh -y \
-         chsh -s /bin/zsh
+         apt-get install zsh -y 
 fi
+
+sudo chsh -s /bin/zsh
 
 # 安装oh-my-zsh
 sudo sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
