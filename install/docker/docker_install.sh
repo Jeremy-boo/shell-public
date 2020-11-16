@@ -24,6 +24,14 @@ sudo apt-get -y update
 sudo apt-get -y install docker-ce
 
 
+# function DockerAuth(){
+#     echo "----------------添加普通用户执行docker权限----------------"
+#     sudo groupadd docker
+#     sudo usermod -aG docker ${USER}
+#     sudo service docker restart
+#     sudo chmod 666 /var/run/docker.sock
+# }
+
 
 
 
