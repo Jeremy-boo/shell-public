@@ -9,13 +9,14 @@ while true
 do
     echo "----------------------------------"
     echo "0) 安装golang环境"
-    echo "2) 退出"
+    echo "1) 退出"
     echo "----------------------------------"
     read -p "输入操作编号：" func
     case $func in
         0)
         InstallGoEnv
-        2)
+        ;;
+        1)
         echo "操作取消"
         exit
         ;;
