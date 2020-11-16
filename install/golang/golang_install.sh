@@ -3,7 +3,7 @@
 # Time: 2020-11-16
 # Function: install and config golang environment
 
-. ../function.sh
+. ./function.sh
 
 while true
 do
